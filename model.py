@@ -87,8 +87,27 @@ def trainable_fraction(trainable_count, total_count):
 
     return float(trainable_count/total_count)
 
-# Step 9 - build_instruction_examples (not yet solved)
-# TODO: implement
+# Step 9 - build_instruction_examples
+def build_instruction_examples():
+    """Return a small list of {'instruction', 'response'} dicts for SFT."""
+    # TODO: return a tiny hand-written list of instruction/response example dicts.
+    return [
+        {'instruction': 'Whats the most delicious food on earth?',
+        'response': 'Birria Tacos no doubt hermanos'},
+
+        {'instruction': 'List me the coolest cars ever?',
+        'response': 'Tough one but I got a couple here, Lexus LC500, Corvette C7, Kia K4 and Mazda MX-5'},
+
+        {'instruction': 'Is lifting weights important?',
+        'response': 'Yes, for longevity, looks, self-esteem and to be strong it is a must'},
+
+        {'instruction': 'Are engineers geniuses?',
+        'response': 'Without a doubt homie, they built dams, trains, planes, cities, devices and solved many many many of humanity problems'},
+
+        {'instruction': 'Why winter considered the best season of the year?',
+        'response': 'Homes become cozy, weather is cool, worm food is delighful'},
+
+    ]
 
 # Step 10 - format_instruction_example (not yet solved)
 # TODO: implement
