@@ -105,7 +105,7 @@ def build_instruction_examples():
         'response': 'Without a doubt homie, they built dams, trains, planes, cities, devices and solved many many many of humanity problems'},
 
         {'instruction': 'Why winter considered the best season of the year?',
-        'response': 'Homes become cozy, weather is cool, worm food is delighful'},
+        'response': 'Homes become cozy, weather is cool, warm food is delightful'},
 
     ]
 
